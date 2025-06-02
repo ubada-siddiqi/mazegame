@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Unlock My Heart for Afsheen</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+  <audio id="bg-music" autoplay loop>
+    <source src="music.mp3" type="audio/mp3" />
+    Your browser does not support the audio element.
+  </audio>
+
+  <div id="game">
+    <canvas id="mazeCanvas" width="300" height="300"></canvas>
+    <p id="message"></p>
+  </div>
+
+  <div id="ending-screen" style="display: none;">
+    <h1>🎉 You did it, Afsheen! 🎉</h1>
+    <p>From the moment I met you, my world changed.<br>
+    This journey through mazes was just a small reflection of how far I’d go to reach your heart.<br><br>
+    I love you, Afsheen. Forever and always. 💘</p>
+  </div>
+
+  <script src="maze.js"></script>
+</body>
+</html>
